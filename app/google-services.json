@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "378215578617",
+    "firebase_url": "https://trasee-montane-f4cd5.firebaseio.com",
+    "project_id": "trasee-montane-f4cd5",
+    "storage_bucket": "trasee-montane-f4cd5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378215578617:android:07acac6802763e38",
+        "android_client_info": {
+          "package_name": "com.example.traseemontane"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378215578617-ulotaup6662ihv1ll2elv5l71fdbb5g7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.traseemontane",
+            "certificate_hash": "e2c90ea8eff51c1e89c8a2dcc3fc7738a4f22248"
+          }
+        },
+        {
+          "client_id": "378215578617-3919qbgirdklbrgr71qpi2c8ghu0smkq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAppqY0Uh8z2g6dBwSkWS5PsWD_PeiSATg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378215578617-3919qbgirdklbrgr71qpi2c8ghu0smkq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

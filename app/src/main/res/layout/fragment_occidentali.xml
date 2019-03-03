@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_occidentali_harta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            card_view:cardElevation="4dp"
+            card_view:cardCornerRadius="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/harta_occidentali" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/harta_occidentali_titlu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:text="@string/occidentaliHartaTitlu"
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/harta_occidentali_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/occidentaliHartaDescriere"
+                        android:textColor="@color/myGrey"
+                        android:layout_below="@+id/harta_occidentali_titlu"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_download_icon"
+                        android:layout_alignEnd="@id/harta_occidentali_titlu"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_apuseni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            card_view:cardElevation="4dp"
+            card_view:cardCornerRadius="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/apuseni" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/card_apuseni_titlu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:text="@string/occidentaliApuseniTitlu"
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/card_apuseni_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/occidentaliApuseniDescriere"
+                        android:textColor="@color/myGrey"
+                        android:layout_below="@id/card_apuseni_titlu"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_forward"
+                        android:layout_alignEnd="@id/card_apuseni_titlu"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_Bihorului"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            card_view:cardElevation="4dp"
+            card_view:cardCornerRadius="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/nerei" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/card_bihorului_titlu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:text="@string/occidentaliBihoruluiTitlu"
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/card_bihorului_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/occidentaliBihoruluiDescriere"
+                        android:textColor="@color/myGrey"
+                        android:layout_below="@id/card_bihorului_titlu"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_forward"
+                        android:layout_alignEnd="@id/card_bihorului_titlu"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="regions_array">
+        <item>Fagarasi</item>
+        <item>Bucegi</item>
+    </string-array>
+</resources>

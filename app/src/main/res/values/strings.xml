@@ -1,0 +1,333 @@
+<resources>
+    <string name="app_name">Trasee Montane</string>
+    <string name="search">Search</string>
+    <string name="info">Info</string>
+    <string name="home">Home</string>
+    <string name="map">Map</string>
+    <string name="settings">Settings</string>
+    <string name="region">Regiune</string>
+
+    <!--toolbar-->
+    <string name="info_toolbar">Informații</string>
+    <string name="map_toolbar">Hartă</string>
+    <string name="search_toolbar">Căutare</string>
+    <string name="settings_toolbar">Setări</string>
+
+    <!--Fragment informatii-->
+    <string name="infoMarcajeTitlu">Marcaje</string>
+    <string name="infoMarcajeDescriere">Informații importante despre marcajele montane din România.</string>
+    <string name="infoEchipamentTitlu">Echipament</string>
+    <string name="infoEchipamentDescriere">Necesarul pentru orice drumeție pe munte.</string>
+    <string name="infoUrgenteTitlu">Urgențe</string>
+    <string name="infoUrgenteDescriere">Cum să procedezi în cazul unei urgențe.</string>
+    <string name="buttonRead">Citește</string>
+    <string name="marcaje_romania">Marcajele din Romania</string>
+
+
+    <!--MARCAJE-->
+    <string name="banda_colorata">Banda de orice culoare ar fi ne indica faptul ca suntem pe un traseu de creasta sau traseele principale.
+    </string>
+
+    <string name="cruce_colorata"> Crucea , indiferent de culoarea ei ne indica ca traseul pe care mergem o sa se intersecteze cu un traseu principal.
+    </string>
+
+    <string name="punct_colorat"> Punctul indiferent de culoare  marcheaza un traseu secundar de obicei  care porneste dintr-o vale. Este folosit pentru a arata si ca traseul pe care suntem este un circuit, cand este cu cerc dublu arata ca este un traseu dus-intors.
+    </string>
+
+    <string name="triunghi_colorat">  Triunghiul arata un traseu secundar, sau traseu catre un varf muntos.
+    </string>
+
+    <string name="patrat_colorat">Patratul rosu sau albastru arata ca suntem aproape de o rezervatie naturala.
+    </string>
+
+    <string name="patrate">Semnul cu patratele galbene si negre – arata zone cu risc mare de avalanse.
+    </string>
+
+    <string name="bicicleta">C intr-un patrat semnifica traseu de biciclete.
+    </string>
+
+    <string name="alte_marcaje">O sa mai intalniti pe trasee montane si table cu informatii utile (durata pana la un anumit punct, sau anumite zone inspre care te indrepti, sau alte informatii utile).
+        Recomandam sa nu parasiti traseele marcate chiar daca aveti impresia ca nu aveti nevoie de ele. De obicei traseele montane sunt facute prin cele mai optime zone , deci daca traseul nu va duce pe unde vi se pare mai usor sau mai aproape cel mai probabil exista un motiv.
+
+    </string>
+
+    Grad de dificultate al traseelor montane :
+
+    Din punctul meu de vedere gradul de dificultate al unui traseu montan poate fi dat atat de lungimea traseului , de diferenta de nivel  dar nu in ultimul rand de dificultatea si locurile periculoase pe care trebuie sa le strabati.
+
+    Gradul de dificultate stabilit  pentru un traseu se refera doar la timpul de parcurgere al traseului care este de fapt direct proportional cu  lungimea traseului si diferenta de nivel. Prin urmare traseele montane se clasifica astfel:
+
+    Traseu USOR , care se poate parcurge in 3-6 ore de aproape oricene si care are o diferenta de nivel de 300-700m
+    Traseu MEDIU , care se poate parcurge in 4-8 ore si are o diferenta de nivel intre 500-1000 m
+    Traseu GREU , care se poate parcurge in 5-9 ore si are o diferenta de nivel de  peste 800m
+
+
+
+    <!-- Strings pentru echipament activity-->
+    <string name="titluEchipament">Echipamentul necesar unei drumeții.</string>
+    <string name="titluBocanci">Bocanci</string>
+    <string name="descriereBocanci">
+    Nu urca pe munte în adidaşi sau pantofi.
+    Te poți accidenta serios, pentru că talpa de la pantofi nu aderă cum trebuie la piatră
+    (adică aluneci), gleznele sunt expuse şi rişti fracturi serioase.  Dacă nu îţi permiţi bocanci speciali,
+    poţi să porţi şi bocancii tăi de iarnă, cu condiţia să fie robuşti, fără toc şi să-ţi susţină glezna bine.
+    </string>
+    <string name="titluRucsac">Rucsac</string>
+    <string name="descriereRucsac">
+    Pentru o excursie de o zi este suficient un rucsac cu volum între 15 şi 25 de litri.
+    Rucsacul trebuie să aibe două bretele pentru a asigura distribuţia egală a greutăţii.
+    </string>
+    <string name="titluPelerina">Pelerina De Ploaie</string>
+    <string name="descrierePelerina">
+    Găseşti clasicele pelerine galbene la preţuri începând cu 20 ron. Investeşte într-o
+    pelerină mare, care să te protejeze bine de apă. Nu uita că vremea se poate schimba brusc pe munte,
+    iar faptul că dimineaţă când pleci e soare nu garantează că aşa va fi şi peste câteva ore.
+    </string>
+    <string name="titluTricou">Tricou de schimb</string>
+    <string name="descriereTriocu">
+    Mai ales dacă eşti începător într-ale excursiilor montane, sunt şanse bune să transpiri mult.
+    Dacă soarele intră în nori şi temperatura scade brusc, s-ar putea ca tricoul tău ud de transpiraţie să se
+    transforme brusc într-un mic frigider peste trupul tău obosit şi neatrenat.
+    </string>
+    <string name="titluBluza">Fleece/Bluza de trening groasa</string>
+    <string name="descriereBluza">
+    Cu cât urci mai mult, riscul schimbărilor bruşte de temperatură creşte.
+    Pune-ţi în rucsac o bluză călduroasă pe care să o poţi trage repede peste tine dacă se face frig.
+    </string>
+    <string name="titluSapca">Şapca şi ochelarii de soare</string>
+    <string name="descriereSapca">
+    Poate ţi se pare un moft să porţi ochelari pe munte, dar dacă soarele se
+    reflectă de stâncă, ochii tăi îţi vor mulţumi că îi protejezi. Capul ar trebui sa fie mereu acoperit,
+    pentru că riscul de insolaţie este mare iar cea mai apropiată secţie de prim ajutor va fi din ce in ce mai departe.
+    </string>
+    <string name="titluCrema">Crema de protectie UV</string>
+    <string name="descriereCrema">
+    Foloseşte o cremă cu factor de protecţie mare (peste 30). Soarele arde puternic
+    pe munte, chiar şi dacă este înnorat, iar riscul arsurilor solare este mare.
+    </string>
+    <string name="titluBriceag">Briceag multifunctional</string>
+    <string name="descriereBriceag">
+    Este un instrument compact şi comod care îţi oferă toate instrumentele necesare pentru călătorie.
+    </string>
+    <string name="titluTrusa">Trusa de prim ajutor</string>
+    <string name="descriereTrusa">
+    Va conţine, fără excepţie: Faşă elastică (învaţă să o foloseşti în caz că te accidentezi),
+    plasturi şi comprese sterile pentru accidente minore, cremă antibiotică sau un dezinfectant,
+    pensetă (în caz că briceagul multifuncţional nu e dotat cu una),  glucoză sau pliculeţe de zahăr şi lămâie, pentru cazurile de extenuare sau hipoglicemie.
+    </string>
+    <string name="titluApa">Apă suficientă</string>
+    <string name="descriereApa">
+    (cel puţin 2l de persoană dacă traseul pe care urmează să-l parcurgi nu se intersectează cu râuri).
+    Poţi lua şi un termos cu ceai cald, foarte dulce, cu lămâie. Câteva guri te vor energiza dacă te simţi extenuat.
+    </string>
+    <string name="titluMancare">Mâncare</string>
+    <string name="descriereMancare">
+    Evită să cumperi produse ambalate ca să nu produci gunoi. Poţi cumpăra biscuiţi la kilogram,
+    fructe uscate (excelente surse de energie), salam feliat etc, care nu vor lăsa resturi. Este inutil de
+    menţionat că orice gunoi va fi adus înapoi şi aruncat acasă, nu pe munte. Ideea ascunderii gunoiului sub o
+    piatră datează din vremea când gunoaiele erau degradabile biologic. O pungă de plastic sau un PET nu sunt
+    degradabile, deci nu polua muntele cu ele.
+    </string>
+    <string name="titluLanterna">Lanternă</string>
+    <string name="descriereLanterna">În caz că te prinde noaptea pe drum.Utila si pentru divertisment nocturn.
+    </string>
+    <string name="titluTelefon">Telefonul mobil încărcat la maxim</string>
+    <string name="descriereTelefon">
+    Pentru urgenţe, şi NU pentru ascultat muzică la difuzor.
+    Ideal ar fi sa ai si o baterie suplimentara, sau un dispozitiv de incarcare solara.
+    Daca vrei neaparat muzica, ascult-o la un dispozitiv separat, de care nu va depinde viata ta.
+    </string>
+
+    <!--Urgente-->
+    <!--Furtuna-->
+    <string name="urgente_furtuna">FURTUNA SI FULGERE</string>
+    <string name="urgente_furtuna_descriere"><![CDATA[
+SEMNE  care te avertizează că urmează o furtună puternică :
+\n-Dacă simți că ți se ridică părul din cap, la propriu ( din cauza electricității din atmosferă), înseamnă că fulgerele și, implicit, trăsnetele, sunt iminente și trebuie să te adăpostești.
+\n-Stârnirea  vântului, odată cu răcirea bruscă a aerului și atenuarea accentută a luminii sunt alte semne de furtună iminentă
+\nRECOMANDARI :
+\n-Dacă te afli pe un vârf sau pe o creastă, coboară rapid, pentru că acestea sunt zonele cele mai expuse. —Alege cea mai joasă vale sau adâncitură de relief la care poți ajunge repede. Dacă, totuși, furtuna te-a surprins pe creastă și nu mai apuci să cobori, mijlocul crestei este un loc mai bun pentru adăpost, decât extremitățile ei.
+\n -Stai chircit, pe vârful picioarelor! Caută, în schimb, să te ghemuiești pe o mică platformă, aflată în apropierea unei zone de câteva ori mai înaltă decât a ta. Nu te așeza pe burtă sau pe spate, nu-ți lipi corpul de stâncă, ci stai chircit, pe vârfurile picioarelor, cu mâinile pe cap, pentru a avea un contact cat mai redus cu pământul, care absoarbe electricitatea fulgerului.
+\n-După ce v-aţi ghemuit, acoperiţi-vă urechile cu mâinile, ca să vă protejaţi auzul în cazul unui trăznet Încercaţi să staţi în aşa fel încât să atingeţi solul doar cu vârfurile picioarelor. Fulgerul poate lovi mai întâi în pământ şi apoi să intre în corpul vostru.De asemenea, trebuie să staţi cu călcâiele unite, astfel încât fulgeru
+\n -Evită arborii înalți sau izolați, care atrag trăsnetul ca un magnet și încearcă să alegi un loc mai ferit, dar care să nu fie în calea apelor, ce s-ar putea scurge de pe versanți.
+\n- Dacă, totuși, nu găsești un adăpost în timp util, și în jurul tău se dezlănțuie iadul',  pune repede deoparte lucrurile metalice pe care le ai cu tine (pioleți, lanternă, telefon etc.) și așază-te cât mai departe de ele, în poziția ghemuit, cu picioarele și mâinile cât mai apropiate. Dar, pune sub tine sacul de dormit, izoprenul sau orice alte obiecte nemetalice aflate la îndemână, astfel încât să eviți pe cât posibil contactul cu pământul.
+\n- Nu te mișca imediat ce nu mai auzi tunete! Dacă te afli pe munte împreună cu alte persoane, nu vă așezați unul lângă altul. Păstrați o distanță între voi, de circa 10-15 metri, pentru a evita așa numita„lovire în lanț' de un trăsnet puternic. Pe de altă parte, chiar dacă ploaia și tunetele au încetat, nu vă mișcați mai devreme de 20-25 de minute de la ultimul tunet
+    ]]></string>
+
+    <!--Vipera-->
+    <string name="urgente_vipera">MUSCATURA DE VIPERA</string>
+    <string name="urgente_vipera_descriere">Pentru a preveni muscatura de vipera se recomanda:
+\n-Bocanci inalti;
+\n-Sosete peste glezne;
+\n	-Pantaloni lungi
+\n-Evita zonele expuse la soare (sunt cele mai frecventate de serpi);
+\n-Mergi cu pas cadentat si apasat. Viperele, sensibile la miscare, se vor indeparta;
+\n-Verifica inainte sa te asezi in iarba, sa te apropii de o sursa de apa etc.;
+\n    -Nu-ti introdu mainile prin scorburi, fisuri ale terenului etc.;
+\n-Foloseste bastoane sau bete de trekking. Te ajuta sa controlezi terenul .
+\n        SEMNE ALE MUSCATURII DE VIPERA
+\n -  durere acută
+\n -  umflarea zonei afectate
+\n -  una sau două urme de înţepătură
+\n -  semiiconştienţă
+\n-  decolorarea sau colorarea în violet sau negru a pielii din zona în care a pătruns veninul şi necrozarea ţesuturilor
+\n-  senzaţie de greaţă, vomă, tulburări de vedere, dificultăţi de respiraţie, transpiraţie excesivă, dureri abdominale, sete, anxietate şi posibilă pierdere a cunoştinţei
+    </string>
+
+    <!--Entorse si luxatii-->
+    <string name="urgente_entorse">ENTORSE SI LUXATII</string>
+    <string name="urgente_entorse_descriere">Entorsa este o problemă care apare la nivelul unei articulații din cauza unei forțări, unei ieșiri din limitele normale ale unei mișcări. O mișcare prea amplă poate produce o întindere, o leziune, până la ruptura ligamentelor.
+\nÎn cazul unei entorse trebuie respectat protocolul R.I.C.E.
+\nR  adică repaus.
+\nI de la ice (gheață). Gheața este un remediu excelent pentru scăderea edemului, a umflăturii.
+\nC vine de la compresion (compresie). Compresia are ca scop reducerea edemului rezultat din procesul inflamator. Sprijiniți confortabil zona afectată, apoi cu un bandaj elastic bandajați până la articulația următoare. Spre exemplu, pentru o leziune la nivelul gleznei, bandajul trebuie să se extindă de la baza degetelor până la genunchi. Verificați circulatia în exteriorul zonei bandajate din zece în zece minute, deoarece un bandaj strâns va avea drept rezultat afectarea circulației în zona respectivă.
+\nE de la elevation (ridicare), încercăm să ținem membrul afectat cât mai ridicat pentru a ajuta drenajul și pentru a preveni umflarea zonei respective.
+\nEntorsele apar cel mai frecvent la nivelul gleznei și al genunchilor și includ simptome precum:
+\n- Umflarea rapidă, uneori însoțită de modificarea culorii pielii;
+\n- Alterarea funcției unei articulații sau o senzație de instabilitate;
+\n- Durere și sensibilitate în zona afectată;
+\n- Un sunet ca o pocnitură;
+\n- Dificultate în utilizarea articulației.
+    </string>
+
+
+    <!--Pagina de Search-->
+    <string name="searchMeridionaliTitlu">Carpații Meridionali</string>
+    <string name="searchMeridionaliDescriere">
+        Reprezintă cea mai masivă, tipică și spectaculoasă regiune montană a țării, având unele similitudini cu Alpii.
+    </string>
+    <string name="searchOccidentaliTitlu">Carpații Occidentali</string>
+    <string name="searchOccidentaliDescriere">
+        Discontinuitatea este una din caracteristicile de bază ale acestora.
+        Alcătuirea geografică este foarte variată, existând un adevărat „mozaic petrografic”
+        (fliș, șisturi cristaline, calcare, roci eruptive, roci metamorfice).
+    </string>
+    <string name="searchOrientaliTitlu">Carpații Orientali</string>
+    <string name="searchOrientaliDescriere">
+         Se găsesc în partea estică a lanțului muntos, prezentând o varietate largă de roci,
+        aspecte geofizice, geologice și morfologice, înălțimi, împăduriri, floră și faună.
+    </string>
+
+    <!--Carpatii Meridionali-->
+    <string name="meridionaliHartaTitlu">Hartă</string>
+    <string name="meridionaliHartaDescriere">Detalii despre zonele din Carpații Meridionali</string>
+    <string name="meridionaliBucegiTitlu">Munții Bucegi</string>
+    <string name="meridionaliBucegiDescriere">Trasee montane în Munții Bucegi</string>
+    <string name="meridionaliRetezatTitlu">Munții Retezat</string>
+    <string name="meridionaliRetezatDescriere">Trasee montane în Munții Retezat</string>
+    <string name="meridionaliFagarasTitlu">Munții Făgăraș</string>
+    <string name="meridionaliFagarasDescriere">Trasee montane în Munții Făgăraș</string>
+    <string name="meridionaliPiatraTitlu">Piatra Craiului, Munții Cernei și Munții Șureanu</string>
+    <string name="meridionaliPiatraDescriere">Trasee montane în Piatra Craiului, Munții Cernei și Munții Șureanu</string>
+
+    <!--Carpatii occidentali-->
+    <string name="occidentaliHartaTitlu">Hartă</string>
+    <string name="occidentaliHartaDescriere">Detalii despre zonele din Carpații Occidentali</string>
+    <string name="occidentaliApuseniTitlu">Munții Apuseni</string>
+    <string name="occidentaliApuseniDescriere">Drumeții în Munții Apuseni</string>
+    <string name="occidentaliBihoruluiTitlu">Munții Banatului, Bihorului și Poiana Rusca</string>
+    <string name="occidentaliBihoruluiDescriere">Trasee montane în Munții Banatului, Bihorului și Poiana Rusca</string>
+
+    <!--Carpatii orientali-->
+    <string name="orientaliHartaTitlu">Hartă</string>
+    <string name="orientaliHartaDescriere">Detalii despre zonele din Carpații Orientali</string>
+    <string name="incepatoriTitlu">Începători</string>
+    <string name="incepatoriDescriere">Trasee montane pentru începători</string>
+    <string name="experimentatiTitlu">Experimentați</string>
+    <string name="experimentatiDescriere">Trasee montane pentru experimentați</string>
+    <string name="orientaliDescriereFragment">
+        Carpații Orientali reprezintă unul din marile segmente montane ale munților Carpați, și se află pe teritoriul României, Ucrainei, Slovaciei și Poloniei.
+        Așa după cum indică și numele, Carpații Orientali se găsesc în partea estică a lanțului muntos,
+        prezentând o varietate largă de roci, aspecte geofizice, geologice și morfologice, înălțimi, împăduriri, floră și faună.
+    </string>
+    <string name="linkHartaOrientali">
+        http://www.profudegeogra.eu/wp-content/uploads/2011/10/Carpa%C5%A3ii_Orientali1.gif
+    </string>
+
+    <!--Fagarasi-->
+    <string name="HartaTitlu">Descarcă Harta</string>
+    <string name="fagarasiHartaDescriere">Harta detaliată a munților Făgărași</string>
+    <string name="fagarasDescriereFragment">
+        Supranumiti Alpii Transilvaniei, muntii Fagarasului sunt cei mai inalti multi din Romania. Aici se afla cele mai inalte varfuri din tara, Moldoveanu si Negoiu. Muntii Fagarasului sunt formati dintr-o creasta lunga de 70 de kilometri, de la vest la est, din care se desprind creste secundare pe ambele parti, asemenea unui pieptene imens.
+
+Muntii Fagarasului ofera unele dintre cele mai frumoase trasee montane iarna in Romania. Atentie, insa, frumusetea iernii in muntii Fagarasului vine cu pericolele avalanselor de zapada si trebuie luate masurile de precautie necesare.
+    </string>
+    <string name="linkHartaFagarasi">
+        https://muntii-fagaras.ro/img/harti/harta-fagaras-turistica.jpg
+    </string>
+
+    <!--Bucegi-->
+    <string name="bucegiHartaDescriere">Harta detaliată a munților Bucegi</string>
+    <string name="bucegiDescriereFragment">
+        Muntii Bucegi sunt printre cei mai surprinzatori munti ai Carpatilor romanesti. Aici sunt o sumedenie de trasee spectaculoase, de la cele accesibile oricarui iubitor de munte si pana la trasee dificile sau rezervate doar alpinistilor. Muntii Bucegi incanta drumetul cu abrupturi ametitoare si vai adanci, dar si cu paduri intinse de molid si culmi prelungi, domoale.
+
+In muntii Bucegi poti face excursii la munte cu familia sau cu prietenii. Aici gasesti trasee abordabile cu masina, precum cele de la Lacul Bolboci sau Cabana Padina, cu telecabina spre Babele sau Cota 2000 Sinaia, sau, asa cum e frumos, pe jos.
+    </string>
+    <string name="linkHartaBucegi">
+        http://www.carpati.org/download/h100/
+    </string>
+
+    <!--Retezat-->
+    <string name="retezatHartaDescriere">Harta detaliată a munților Retezat</string>
+    <string name="retezatDescriereFragment">
+        Muntii Retezat reprezinta o bijuterie a Carpatilor si unele dintre cele mai frumoase zone de munte se gasesc aici. Multi ii considera cei mai frumosi munti din Romania si aici vei gasi unele dintre cele mai frumoase si spectaculoase trasee montane din Romania.
+
+Frumusetea muntilor Retezat lor a fost recunoscuta inca din anul 1935, cand a fost infiintat Parcul National Retezat. Muntii Retezat ofera turistilor o varietate de obiective, precum vai glaciare, creste si varfuri spectaculoase, cascade si paduri seculare, precum si zone domoale, pastorale.
+    </string>
+    <string name="linkHartaRetezat">
+        http://www.carpati.org/download/h89/
+    </string>
+
+    <!--Piatra-->
+    <string name="piatraHartaDescriere">Harta detaliată a munților Piatra Craiului, Munții Cernei și Munții Șureanu</string>
+    <string name="piatraDescriereFragment">
+        Supranumita Regina Carpatilor, Piatra Craiului te vrajeste cu albul sau stralucitor si cu cotloanele invaluite in mister. In abrupturile Pietrei Craiului se afla unele dintre cele mai periculoase trasee montane din Romania, care atrag insa prin salbaticia si varietatea peisajelor pe care le ofera drumetilor.
+
+In muntii Cernei si Sureanu vei gasi locuri in care timpul s-a oprit si oameni care si-au impletit destinele de firescul naturii. Aici sunt printre cele mai frumoase si abordabile trasee din Romania, potrivite pentru plimbari recreative, alaturi de familie sau prieteni, sau chiar cu bicicleta pe munte Tot prin padurile muntilor Cernei si Sureanu poti parcurge unele dintre cele mai frumoase trasee montane toamna in Romania.
+    </string>
+    <string name="linkHartaPiatra">
+        http://www.carpati.org/download/h36/
+    </string>
+
+
+    <!--Apuseni-->
+    <string name="apuseniHartaDescriere">Harta detaliată a munților Apuseni</string>
+    <string name="apuseniDescriereFragment">
+        Carpatii Occidentali inchid arcul carpatic spre vest si ofera peisaje frumoase, variate. Muntii Apuseni sunt pentru multi cei mai frumosi munti din Romania. In unele zone predomina culmile prelungi, impadurite, si vaile unde oamenii si-au construit salase. In altele, formele de relief carstic sunt puternic dezvoltate si constitutie o atractie.
+Iubitorii de pesteri vor gasi activitati pe gustul mor in muntii Apuseni, aici fiind si doua pesteri cu ghetari permanenti, precum Pestera Scarisoara si Pestera Focul Viu.
+    </string>
+    <string name="linkHartaApuseni">
+        http://www.profudegeogra.eu/wp-content/uploads/2011/06/apuseni.jpg
+    </string>
+
+    <!--Poiana Rusca-->
+    <string name="ruscaHartaDescriere">Harta detaliată a munților Banatului, Bihorului și Poiana Rusca</string>
+    <string name="ruscaDescriereFragment">
+        Munții Poiana Ruscă sunt o grupă montană extinsă aparținând Carpaților Occidentali făcând tranziția între grupa majoră nordică a acestora, Munții Apuseni și grupa majoră sudică, Munții Banatului. Se întind pe o suprafață de cca 2.640 km2, având altitudini medii în jur de 700 – 1000 m.
+
+Cel mai înalt vârf al Munților Poiana Ruscă, având 1.382 m, este vârful Padeș.</string>
+    <string name="linkHartaRusca">
+        http://www.carpati.org/download/h37/
+    </string>
+
+    <!--Incepatori-->
+    <string name="traseeIncepatoriTitlu">Trasee Începători</string>
+
+    <!--Experimentati-->
+    <string name="traseeExperimentatiTitlu">Trasee Experimentați</string>
+
+    <!--Traee-->
+    <string name="cazare">Caută Cazare</string>
+    <!--Sebeşu de Sus - V. Moaşei - Cabana Suru-->
+    <string name="sebesu">Sebeşu de Sus - V. Moaşei - Cabana Suru</string>
+    <string name="sebesuDescriere">
+            Traseul nr. 8 Bulină Roșie este un traseu de pătrundere în arealul Munților Făgăraș,
+        făcând legătura între localitatea Sebeşu de Sus și Cabana Suru, urmând fidel (aproape întreg traseul),
+        valea Moașei Sebeșului. În primă fază vom parcurge un drum forestier, apoi vom traversa râul pe versantul
+        estic și vom intra într-un tărâm sălbatic al apelor. O salbă de cascade dintre cele mai pitorești, ne va
+        bucura sufletul pentru aproximativ 1 km de traseu, apoi vom urca abrupt într-o poiană cu rămășițele unei
+        stâne. De aici, un ultim urcuș ne conduce în spatele Cabanei Suru. Este un traseu de dificultate medie, cu
+        diferențe de nivel de aprox. 1000 de m, pe parcursul a 4 h de drumeție. Efortul depus ne va fi răsplătit
+        de perspectiva asupra crestei principale și de locația generoasă și primitoare.
+    </string>
+</resources>

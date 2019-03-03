@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titluEchipament"
+            android:textSize="30sp"
+            android:layout_margin="20dp"
+            android:gravity="center"/>
+        <!--Bocanci-->
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titluBocanci"
+            android:textSize="25sp"
+            android:buttonTint="@color/myGreen"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descriereBocanci"
+            android:textSize="15sp"
+            android:layout_margin="10dp"/>
+
+        <!--Rucsac-->
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titluRucsac"
+            android:textSize="25sp"
+            android:buttonTint="@color/myGreen"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descriereRucsac"
+            android:textSize="15sp"
+            android:layout_margin="10dp"/>
+
+        <!--Pelerina-->
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titluPelerina"
+            android:textSize="25sp"
+            android:buttonTint="@color/myGreen"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descrierePelerina"
+            android:textSize="15sp"
+            android:layout_margin="10dp"/>
+
+        <!--Tricou-->
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titluTricou"
+            android:textSize="25sp"
+            android:buttonTint="@color/myGreen"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descriereTriocu"
+            android:textSize="15sp"
+            android:layout_margin="10dp"/>
+
+        <!--Bluza-->
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titluBluza"
+            android:textSize="25sp"
+            android:buttonTint="@color/myGreen"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descriereBluza"
+            android:textSize="15sp"
+            android:layout_margin="10dp"/>
+
+        <!--Sapca-->
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titluSapca"
+            android:textSize="25sp"
+            android:buttonTint="@color/myGreen"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descriereSapca"
+            android:textSize="15sp"
+            android:layout_margin="10dp"/>
+
+        <!--Crema-->
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titluCrema"
+            android:textSize="25sp"
+            android:buttonTint="@color/myGreen"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descriereCrema"
+            android:textSize="15sp"
+            android:layout_margin="10dp"/>
+
+        <!--Briceag-->
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titluBriceag"
+            android:textSize="25sp"
+            android:buttonTint="@color/myGreen"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descriereBriceag"
+            android:textSize="15sp"
+            android:layout_margin="10dp"/>
+
+        <!--Trusa-->
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titluTrusa"
+            android:textSize="25sp"
+            android:buttonTint="@color/myGreen"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descriereTrusa"
+            android:textSize="15sp"
+            android:layout_margin="10dp"/>
+
+        <!--Apa-->
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titluApa"
+            android:textSize="25sp"
+            android:buttonTint="@color/myGreen"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descriereApa"
+            android:textSize="15sp"
+            android:layout_margin="10dp"/>
+
+        <!--Mancare-->
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titluMancare"
+            android:textSize="25sp"
+            android:buttonTint="@color/myGreen"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descriereMancare"
+            android:textSize="15sp"
+            android:layout_margin="10dp"/>
+
+        <!--Lanterna-->
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titluLanterna"
+            android:textSize="25sp"
+            android:buttonTint="@color/myGreen"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descriereLanterna"
+            android:textSize="15sp"
+            android:layout_margin="10dp"/>
+
+        <!--Telefon-->
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titluTelefon"
+            android:textSize="25sp"
+            android:buttonTint="@color/myGreen"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descriereTelefon"
+            android:textSize="15sp"
+            android:layout_margin="10dp"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

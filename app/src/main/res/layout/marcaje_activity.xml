@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/marcaje_romania"
+            android:textSize="35sp"
+            android:layout_margin="20dp"/>
+
+        <!-- Marcah banda -->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/banda_colorata"
+            android:src="@drawable/banda_ic"
+            android:layout_margin="15dp">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/banda_colorata"
+            android:layout_margin="25dp"
+            android:textSize="20sp"
+            />
+
+        <!-- Marcaj Cruce -->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/cruce_colorata"
+            android:src="@drawable/cruce_ic"
+            android:layout_margin="15dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:text="@string/cruce_colorata"
+            android:textSize="20sp" />
+
+        <!-- Marcah Cerc -->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/punct_colorat"
+            android:src="@drawable/cerc_ic"
+            android:layout_margin="15dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/punct_colorat"
+            android:layout_margin="25dp"
+            android:textSize="20sp"
+            />
+
+        <!-- Marcah Triunghi -->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/triunghi_colorat"
+            android:src="@drawable/triunghi_ic"
+            android:layout_margin="15dp">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/triunghi_colorat"
+            android:layout_margin="25dp"
+            android:textSize="20sp"
+            />
+
+        <!-- Marcah Patrat -->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/patrat_colorat"
+            android:src="@drawable/patrat_ic"
+            android:layout_margin="15dp">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/triunghi_colorat"
+            android:layout_margin="25dp"
+            android:textSize="20sp"
+            />
+
+        <!-- Marcah Avalansa -->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/patrate"
+            android:src="@drawable/avalansa_ic"
+            android:layout_margin="15dp">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/patrate"
+            android:layout_margin="25dp"
+            android:textSize="20sp"
+            />
+
+        <!-- Marcah Bicicleta -->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/bicicleta"
+            android:src="@drawable/bicicleta_ic"
+            android:layout_margin="15dp">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bicicleta"
+            android:layout_margin="25dp"
+            android:textSize="20sp"
+            />
+
+        <!-- Alte observatii -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alte_marcaje"
+            android:layout_margin="25dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

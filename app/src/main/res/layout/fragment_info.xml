@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!-- A CardView that contains a TextView -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+        android:id="@+id/card_marcaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            card_view:cardElevation="4dp"
+            card_view:cardCornerRadius="4dp">
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+                <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/marcaje_thumbnail" />
+
+                <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/card_marcaje_titlu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/infoMarcajeTitlu"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+                    <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/infoMarcajeDescriere"
+                    android:textColor="@color/myGrey"
+                        android:layout_below="@id/card_marcaje_titlu"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_forward"
+                        android:layout_alignEnd="@id/card_marcaje_titlu"
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_echipament"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            card_view:cardElevation="4dp"
+            card_view:cardCornerRadius="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/echipament_thumbnail" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/card_echipament_titlu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/infoEchipamentTitlu"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/infoEchipamentDescriere"
+                    android:textColor="@color/myGrey"
+                    android:layout_below="@id/card_echipament_titlu"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_forward"
+                    android:layout_alignEnd="@id/card_echipament_titlu"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_urgenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            card_view:cardElevation="4dp"
+            card_view:cardCornerRadius="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/urgente_thumbnail" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/card_urgente_titlu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:text="@string/infoUrgenteTitlu"
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/infoUrgenteDescriere"
+                        android:textColor="@color/myGrey"
+                        android:layout_below="@+id/card_urgente_titlu"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_forward"
+                        android:layout_alignEnd="@id/card_urgente_titlu"
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+</ScrollView>
